@@ -31,6 +31,8 @@ Sample COUNTIFS() call:
 =COUNTIFS(Kickstarter!$D:$D,"<"&$B2,Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,$K$2)
 ```
 
+After counting the data, a line graph with the results was created, as shown in Figure 2.
+
 #### Figure 2
 ![This is a graph of the outcomes (successful, failed, and canceled) of all Kickstarter projects in the Plays subcategory, correlated with their set goal, sorted into ranges of mostly $5000 increments.](/Resources/Outcomes_vs_Goals.png)
 
@@ -53,13 +55,27 @@ None of this analysis was particularly challenging, but I do want to explicitly 
 - Excel's Year() function, when applied to this date, allowed the creation of a column with only the year, rather than the entire date.
 
 ## Results
-Two conclusions are made about the Theater Outcomes by Launch Date (2 pt).
+
+### Conclusions
+
+#### Theater Outcomes by Launch Date
+
+- The month with the most successes was May.  This implies that people may be more likely to fund Kickstarters in late Spring and early Summer.  As summer goes on, there is a clear downward trend in the number of successes.
+- Those months also had some of the higher number of failures - there are also more Kickstarters created from May through August.  Of those, **May** is definitely an ideal month.
+- If you are looking for a winter launch date, **February** had a clear spike in successful Kickstarters, and may be ideal for a non-summer Kickstarter.
+
+#### Outcomes Based on Goals
+
+- The only goal ranges with more successes than failures are $0->$15,000 and $35,000->$45,000.  All others had more failures than successes, and it may be prudent to avoid those amounts.
+- Of those ranges, $5,000->$15,000 was rather close, so ideal ranges would be from $0->$5,000 and $35,000-$40,000.
+- This suggests that there are two potential budgets for projects.  For a small project, try to keep the goal less than $5,000, while a larger project may want a goal near $40,000.
+
+### Limitations and Additional Exploration
+
 One conclusion is made about the Outcomes based on Goals (2 pt).
 There is a summary of the limitations of the dataset, and there is a recommendation for additional tables or graphs (2 pt).
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-- What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
 
