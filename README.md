@@ -38,7 +38,7 @@ After counting the data, a line graph with the results was created, as shown in 
 
 ### Challenges and Difficulties Encountered
 
-None of this analysis was particularly challenging, but I do want to explicitly explain some of the features I generated in the initial worksheet.
+None of this analysis was particularly challenging, but I do want to explicitly explain some of the features I generated in the initial worksheet, which may pose a challenge to some.
 
 #### Feature Generation
 
@@ -72,11 +72,12 @@ None of this analysis was particularly challenging, but I do want to explicitly 
 
 ### Limitations and Additional Exploration
 
-One conclusion is made about the Outcomes based on Goals (2 pt).
-There is a summary of the limitations of the dataset, and there is a recommendation for additional tables or graphs (2 pt).
+Some of the limitations of this dataset include a lot of missing data that may be relevant to predict the outcome of a Kickstarter.  Some examples of this would include:
+- The professional presentation and production value of the Kickstarter.
+- How often were there updates on the project?
+- Was it the first project from a producer, or do they have a following?
 
-
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
+Other exploration we could do with the data we currently have includes:
+- More statistical analysis.  Instead of comparing # of successes vs failures, perhaps a ratio might be more prudent.
+- Analysis whether something was a Staff Pick or under a Spotlight, which may have increased interest and chance of success (data we already have).
+- Charting the outcomes vs. the number of backers - finding out if successes are more correlated with many donors or a few large donors may change the methods of advertising and targeting for the show.
